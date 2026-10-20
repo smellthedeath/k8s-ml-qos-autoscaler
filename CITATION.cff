@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark data in your research, please cite it as below."
+authors:
+  - family-names: "Nastaran"
+    given-names: "Mohammadali"
+title: "Design and Implementation of an ML/QoS-aware Autoscaling Decision Layer for Kubernetes Applications"
+version: 3.1.0
+date-released: 2026-10-15
+url: "https://github.com/mohammadali-nastaran/k8s-ml-qos-autoscaler"
+keywords:
+  - "kubernetes"
+  - "autoscaling"
+  - "machine-learning"
+  - "random-forest"
+  - "qos"
+  - "cloud-computing"
+  - "resource-management"
+type: thesis
+institution:
+  name: "Master's Thesis Research"

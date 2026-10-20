@@ -1,0 +1,38 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+ml-env/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Temporary Logs & Process IDs
+*.log
+*.pid
+askpass.cmd
+ml_series.log
+vu_series.log
+
+# Large Raw Tarballs (keep clean Git repo under GitHub 100MB limit)
+*.tar.gz
+
+# IDE
+.idea/
+.vscode/
+.cursor/

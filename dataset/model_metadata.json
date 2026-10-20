@@ -1,0 +1,17 @@
+{
+  "model_name": "RandomForest_QoS_Autoscaler",
+  "version": "1.0",
+  "algorithm": "RandomForestClassifier",
+  "training_dataset": "final_ml_training.csv",
+  "training_samples": 220,
+  "accuracy": 0.873,
+  "features": [
+    "cpu_percent",
+    "total_memory_mi",
+    "requests",
+    "failed_rate_percent",
+    "avg_latency_ms",
+    "p95_latency_ms"
+  ],
+  "target": "target_replicas"
+}
